@@ -8,13 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    let restaurantNames = ["hanami", "фора", "kfc", "McDonalds", "АТБ", "Экомаркет", "море пива", "ALCOMAG", "Beer Market"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return restaurantNames.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
+        cell?.textLabel?.text = restaurantNames[indexPath.row]
+        cell?.imageView?.image = UIImage(named: restaurantNames[indexPath.row])
+        return cell!
+    }
 }
 
