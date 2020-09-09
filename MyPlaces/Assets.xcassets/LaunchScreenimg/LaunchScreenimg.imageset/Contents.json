@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "kfc.jpg",
+      "filename" : "LaunchScreenimg.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "kfc@2x.jpg",
+      "filename" : "LaunchScreenimg@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "kfc@3x.jpg",
+      "filename" : "LaunchScreenimg@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

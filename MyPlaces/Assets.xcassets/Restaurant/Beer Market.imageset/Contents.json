@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Beer Market.jpeg",
+      "filename" : "Beer Market.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Beer Market@2x.jpeg",
+      "filename" : "Beer Market@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Beer Market@3x.jpeg",
+      "filename" : "Beer Market@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
